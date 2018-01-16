@@ -38,11 +38,11 @@ dataType属性表明期待的返回数据类型，
 modelClass属性表明需要解析的model。两者配合来获取解析好的model对象或者model对象数组。
 ```
 /**
-model类名，
+model类，
 ResponseDataType为ResponseDataTypeDic时，若有此字段则解析为modelClass对象，否则返回字典。
 ResponseDataType为ResponseDataTypeArr时，若有此字段则解析数组里面的dic为modelClass对象，否则返回数组。
 */
-@property(nonatomic, strong)NSString *modelClass;
+@property(nonatomic, strong)Class modelClass;;
 
 
 /**
