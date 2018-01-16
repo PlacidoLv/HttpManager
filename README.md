@@ -1,7 +1,9 @@
 # HttpManager
 基于AFNetworking封装的网络请求
 
-示例：
+利用YYModel，将返回参数自动解析问对应的model，或者model数组。
+
+示例，获取付款方式列表：
 ```
 HttpManager *http = [[HttpManager alloc] init];
 http.dataType = ResponseDataTypeArr;
