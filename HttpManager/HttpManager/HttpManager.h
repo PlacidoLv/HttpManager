@@ -69,7 +69,7 @@ static  NSString * UserExpiredNotification = @"UserExpiredNotification";
 
 
 /**
- model类名，
+ model类，
  ResponseDataType为ResponseDataTypeDic时，若有此字段则解析为modelClass对象，否则返回字典。
  ResponseDataType为ResponseDataTypeArr时，若有此字段则解析数组里面的dic为modelClass对象，否则返回数组。
  */
